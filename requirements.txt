@@ -1,0 +1,37 @@
+# 装甲板识别项目依赖
+# 使用方法: pip install -r requirements.txt
+
+# YOLOv8 核心库
+ultralytics>=8.0.0
+
+# 图像处理
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# 科学计算
+numpy>=1.24.0
+scipy>=1.10.0
+
+# 深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 数据处理
+pandas>=2.0.0
+Pillow>=10.0.0
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 配置文件解析
+PyYAML>=6.0
+
+# GPU加速 (CUDA支持)
+# 如果使用CPU训练，可以注释掉以下行
+# 注意：需要根据CUDA版本选择对应的torch版本
+# torch>=2.0.0+cu118
+# torchvision>=0.15.0+cu118
